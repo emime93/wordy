@@ -12,10 +12,11 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        ///i have modified something
+        int s = 0;
+        for (int i = 1; i <= 10; ++i) {
+            s++;
+        }
+        NSLog(@"%i",s);
     }
     return 0;
 }
